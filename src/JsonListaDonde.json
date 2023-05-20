@@ -1,0 +1,55 @@
+[
+    {
+        "coleccion": "Artículo",
+        "id": 100,
+        "campos": [
+            {
+                "texto": "Cantidad",
+                "id": 103,
+                "condiciones": [
+                    {
+                        "symbolSVG": "bi-mayor-square",
+                        "id": "mayor",
+                        "texto": ["300"]
+                    },{
+                        "symbolSVG": "bi-slash-igual-square",
+                        "id": "diferente",
+                        "texto": ["420"]
+                    }
+                ]
+            },{
+                "texto": "Categoría",
+                "id": 102,
+                "condiciones": [
+                    {
+                        "symbolSVG": "bi-contenga-square",
+                        "id": "contenga",
+                        "texto": ["Pasta"]
+                    },{
+                        "symbolSVG": "bi-comenzar-square",
+                        "id": "comiense",
+                        "texto": ["spaghet"]
+                    }
+                ]
+            }
+        ]
+        
+    },{
+        "coleccion": "Categoría",
+        "id": 300,
+        "campos": [
+            {
+                "texto": "Descripción",
+                "id": 301,
+                "condiciones": [
+                    {
+                        "symbolSVG": "bi-igual-square",
+                        "id": "igual",
+                        "texto": ["Condimento"]
+                    }
+                ]
+            }
+        ]
+    }
+    
+]

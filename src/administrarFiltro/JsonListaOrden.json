@@ -1,0 +1,31 @@
+[
+    {
+        "tipoOrden": "desc",
+        "coleccion": "Categoría",
+        "idColeccion": 300,
+        "campo": "Descripción",
+        "tipoCampo": "texto",
+        "idCampo": 301
+    },{
+        "tipoOrden": "asc",
+        "coleccion": "Artículo",
+        "idColeccion": 100,
+        "campo": "Descripción",
+        "tipoCampo": "texto",
+        "idCampo": 101
+    },{
+        "tipoOrden": "desc",
+        "coleccion": "Artículo",
+        "idColeccion": 100,
+        "campo": "Categoría",
+        "tipoCampo": "texto",
+        "idCampo": 102
+    },{
+        "tipoOrden": "desc",
+        "coleccion": "Artículo",
+        "idColeccion": 100,
+        "campo": "Cantidad",
+        "tipoCampo": "numero",
+        "idCampo": 103
+    }
+]

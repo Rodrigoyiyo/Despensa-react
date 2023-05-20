@@ -1,0 +1,18 @@
+{
+    "idColeccion": "",
+    "coleccion": "",
+    "idCampo": "",
+    "campo": "",
+    "tipoCampo": "",
+    "condicion": {
+        "idCondicion": "",
+        "symbolSVG": "",
+        "condicionExtras": [],
+        "condicion": [],
+        "valor1": "",
+        "valor2": ""
+    },
+    "orden": {
+        "tipoOrden": ""
+    }
+}

@@ -1,0 +1,45 @@
+[
+    {
+        "coleccion": "Artículo",
+        "id": 100,
+        "campos": [
+            {
+                "texto": "Descripción",
+                "id": 101,
+                "tipo": "texto"
+            },
+            {
+                "texto": "Categoría",
+                "id": 102,
+                "tipo": "texto"
+            },
+            {
+                "texto": "Cantidad",
+                "id": 103,
+                "tipo": "numero"
+            }
+        ]
+    },
+    {
+        "coleccion": "Bodega",
+        "id": 200,
+        "campos": [
+            {
+                "texto": "Descripción",
+                "id": 201,
+                "tipo": "texto"
+            }
+        ]
+    },
+    {
+        "coleccion": "Categoría",
+        "id": 300,
+        "campos": [
+            {
+                "texto": "Descripción",
+                "id": 301,
+                "tipo": "texto"
+            }
+        ]
+    }
+]

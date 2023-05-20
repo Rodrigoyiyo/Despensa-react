@@ -1,0 +1,97 @@
+[
+    {
+        "agrupacion": "A",
+        "conjunto": [
+            {
+                "articulo": "Paella",
+                "inscribe": "Miraflores",
+                "categoriaArbol": ["Abarrote","arroz"],
+                "symbolSVG": "bi-square",
+                "cantidad": "175g",
+                "unidades": "x2",
+                "suma": {
+                    "entero": "88.888",
+                    "fraccion": ",40",
+                    "unidadMedida": "kg"
+                }
+            },{
+                "articulo": "Spaghetti",
+                "inscribe": "Lucchetti",
+                "categoriaArbol": ["Abarrote","pasta"],
+                "symbolSVG": "bi-square",
+                "cantidad": "400g",
+                "unidades": "x4",
+                "suma": {
+                    "entero": "88.888",
+                    "fraccion": ",40",
+                    "unidadMedida": "kg"
+                }
+            },{
+                "articulo": "blanca granulada",
+                "inscribe": "Iansa",
+                "categoriaArbol": ["Abarrote","azúcar"],
+                "symbolSVG": "bi-square",
+                "cantidad": "1.000g",
+                "unidades": "x1",
+                "suma": {
+                    "entero": "88.888",
+                    "fraccion": ",40",
+                    "unidadMedida": "kg"
+                }
+            },{
+                "articulo": "h4. Bootstrap heading abcdefghijklmn abcdefghijklmn abcdefghijklmn",
+                "inscribe": "",
+                "categoriaArbol": ["h6. Bootstrap heading"],
+                "symbolSVG": "bi-square",
+                "cantidad": "400g",
+                "unidades": "x3",
+                "suma": {
+                    "entero": "88.888",
+                    "fraccion": ",40",
+                    "unidadMedida": "kg"
+                }
+            }
+        ]
+    },{
+        "agrupacion": "B",
+        "conjunto": [
+            {
+                "articulo": "Paella2",
+                "inscribe": "Miraflores",
+                "categoriaArbol": ["Abarrote","arroz"],
+                "symbolSVG": "bi-square",
+                "cantidad": "175g",
+                "unidades": "x2",
+                "suma": {
+                    "entero": "88.888",
+                    "fraccion": ",40",
+                    "unidadMedida": "kg"
+                }
+            },{
+                "articulo": "Paella3",
+                "inscribe": "Miraflores",
+                "categoriaArbol": ["Abarrote","arroz"],
+                "symbolSVG": "bi-square",
+                "cantidad": "175g",
+                "unidades": "x2",
+                "suma": {
+                    "entero": "88.888",
+                    "fraccion": ",40",
+                    "unidadMedida": "kg"
+                }
+            },{
+                "articulo": "Paella4",
+                "inscribe": "Miraflores",
+                "categoriaArbol": ["Abarrote","arroz"],
+                "symbolSVG": "bi-square",
+                "cantidad": "175g",
+                "unidades": "x2",
+                "suma": {
+                    "entero": "88.888",
+                    "fraccion": ",40",
+                    "unidadMedida": "kg"
+                }
+            }
+        ]
+    }
+]
