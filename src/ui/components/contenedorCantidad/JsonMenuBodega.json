@@ -1,0 +1,130 @@
+[
+    {
+        "titulo": " Stock",
+        "botones": [
+            {
+                "titulo": "Cerrada",
+                "enlace": "",
+                "capsula": {
+                    "tipoCapsula": "suma-cerrada",
+                    "cantidad": 3450.90,
+                    "unidad": "kg",
+                    "unidades": "x2",
+                    "neto":"170g"
+                }
+            },
+            {
+                "titulo": "Abierta",
+                "enlace": "",
+                "capsula": {
+                    "tipoCapsula": "suma-abierta",
+                    "cantidad": 3450.90,
+                    "unidad": "kg",
+                    "unidades": "x2",
+                    "neto":"170g"
+                }
+            },
+            {
+                "titulo": "Total",
+                "enlace": "",
+                "capsula": {
+                    "tipoCapsula": "suma-total",
+                    "cantidad": 3450.90,
+                    "unidad": "kg",
+                    "unidades": "x2",
+                    "neto":"170g"
+                }
+            }
+        ]
+    },
+    {
+        "titulo": "Stock en relación al vencimiento",
+        "botones": [
+            {
+                "titulo": "Cerrado",
+                "enlace": "",
+                "capsula": {
+                    "tipoCapsula": "capsula-cerrada",
+                    "cantidad": 3450.90,
+                    "unidad": "kg",
+                    "relacionVencimiento": {
+                        "porcentajeNoVence": 70,
+                        "porcentajeSiVence": 30
+                    }
+                }
+            },
+            {
+                "titulo": "Abierto",
+                "enlace": "",
+                "capsula": {
+                    "tipoCapsula": "capsula-abierta",
+                    "cantidad": 3450.90,
+                    "unidad": "kg",
+                    "relacionVencimiento": {
+                        "porcentajeNoVence": 60,
+                        "porcentajeSiVence": 40
+                    }
+                }
+            },
+            {
+                "titulo": "Cerrado/Abierto",
+                "enlace": "",
+                "capsula": {
+                    "tipoCapsula": "capsula-cerrado-abierto",
+                    "cerrado": {
+                        "cantidad": 3450.90,
+                        "unidad": "kg",
+                        "relacionVencimiento": {
+                            "porcentajeNoVence": 50,
+                            "porcentajeSiVence": 50
+                        }
+                    },
+                    "abierto": {
+                        "cantidad": 3450.90,
+                        "unidad": "kg",
+                        "relacionVencimiento": {
+                            "porcentajeNoVence": 40,
+                            "porcentajeSiVence": 60
+                        }
+                    }
+                }
+            },
+            {
+                "titulo": "Detalle cerrado",
+                "enlace": "",
+                "capsula": {
+                    "tipoCapsula": "capsula-cerrada-doble",
+                    "cantidadCerrada": 3450.90,
+                    "cantidadAbierta": 3450.90,
+                    "unidad": "kg",
+                    "relacionVencimiento": {
+                        "porcentajeNoVence": 30,
+                        "porcentajeSiVence": 70
+                    }
+                }
+            },
+            {
+                "titulo": "Detalle abierto",
+                "enlace": "",
+                "capsula": {
+                    "tipoCapsula": "capsula-abierta-doble",
+                    "cantidadCerrada": 3450.90,
+                    "cantidadAbierta": 3450.90,
+                    "unidad": "kg",
+                    "relacionVencimiento": {
+                        "porcentajeNoVence": 20,
+                        "porcentajeSiVence": 80
+                    }
+                }
+            },
+            {
+                "titulo": "Stock/Usar",
+                "enlace": "",
+                "capsula": {
+                    "tipoCapsula": ""
+                },
+                "tipoCapsula": ""
+            }
+        ]
+    }
+]

@@ -1,0 +1,77 @@
+.row-cols-dias>* {
+    flex: 0 0 auto;
+    width: 14.28%;
+    padding: 0;
+}
+
+.col-7-dias {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.offset-dia-1 {
+    margin-left: 14.285%;
+}
+.offset-dia-2 {
+    margin-left: 28.57%;
+}
+.offset-dia-3 {
+    margin-left: 42.855%;
+}
+.offset-dia-4 {
+    margin-left: 57.14%;
+}
+.offset-dia-5 {
+    margin-left: 71.425%;
+}
+.offset-dia-6 {
+    margin-left: 85.71%;
+}
+
+
+.row-cols-dias>div {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+.row-cols-dias>div>*		{
+    width: 2.4rem;
+    height: 2.4rem;
+    padding: 0;
+    display: inline-flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    position: relative!important;
+    --bs-bg-opacity: 1;
+    background-color: transparent;
+    color:#E1D7C6;
+    --bs-bg-opacity: 1;
+    
+}
+
+.row-cols-dias.mes-pasado>div		{
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+}
+
+.row-cols-dias>div>button {
+    width: 2.4rem;
+}
+
+.row-cols-dias>div>button:not(.hoy) {
+    border: 0;
+}
+.row-cols-dias>div>button.hoy,
+.row-cols-dias>div>button.hoy:hover	{
+    --bs-btn-border-color: #E1D7C6;
+    --bs-btn-hover-border-color: #E1D7C6;
+}
+
+
+.row-cols-dias>div>button.active {
+    color: #579BB1;
+}
+.row-cols-dias>div>button.hoy.active,
+.row-cols-dias>div>button.hoy.active:hover	{
+    --bs-btn-border-color: #579BB1;
+    --bs-btn-hover-border-color: #579BB1;
+}

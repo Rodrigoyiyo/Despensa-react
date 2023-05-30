@@ -1,0 +1,38 @@
+{
+    "datExterna": {
+        "codigo": "7891024005064",
+        "tipo": "GTIN",
+        "inscribe": "COLGATE",
+        "articulo": "TP Colg Luminous White Brilliant 140g"
+    },
+    "dataGeneral": {
+        "tipo": {
+            "imagen": "",
+            "nombre": "pasta dental",
+            "idCategoria": "1"
+        },
+        "cantidad": {
+            "valor": "140",
+            "unidad": "g",
+            "desgaste": "130"
+        },
+        "conservacion": [
+            {
+                "id": "fresco"
+            },
+            {
+                "id": "oscuro"
+            },
+            {
+                "id": "temperatura",
+                "valores": {
+                    "temperatura1" : "-15"
+                }
+            }
+        ]
+    },
+    "dataEvento": [
+        { "id": "elaborado" , "fecha":"2023-05-08", "hora":"00:00"},
+        { "id": "vence" , "fecha":"2023-04-28", "hora":"00:00"}
+    ]
+}

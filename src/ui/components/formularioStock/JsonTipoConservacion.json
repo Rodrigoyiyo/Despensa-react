@@ -1,0 +1,22 @@
+[
+    {
+        "id":"fresco",
+        "texto": "Fresco"
+    },
+    {
+        "id":"seco",
+        "texto": "Seco"
+    },
+    {
+        "id":"oscuro",
+        "texto": "Oscuro"
+    },
+    {
+        "id":"temperatura",
+        "texto": "Temperatura"
+    },
+    {
+        "id":"no-ninos",
+        "texto": "Fuera del alcance de los niños"
+    }
+]
