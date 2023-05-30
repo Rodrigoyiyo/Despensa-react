@@ -18,9 +18,9 @@ export const CabeceraSinFiltro = ({titulo = '', symbolSVG, enlace}) => {
                 <div className="container gb-container ">
                     <NavegacionHeader symbolSVG={symbolSVG} titulo={titulo} idOffCanvas={propFijas.idOffCanvas} enlace={enlace} />
                 </div>
+                <MenuLateral idOffCanvas={propFijas.idOffCanvas} />
+                <AdministrarFiltro />
             </header>
-            <MenuLateral idOffCanvas={propFijas.idOffCanvas} />
-            <AdministrarFiltro />
         </>
         
     )

@@ -32,7 +32,7 @@ export const DiaMes = ({ getData, diaSeleccionado, setData, primerDiaSemanaMes }
     return (
         <div className={`${clasesContenedor}`}>
             <button type="button" className={`btn icon-link fs-3 ${clasesEventos} ${marcarDia(diaSeleccionado === getData.fecha)}`}
-
+                 data-bs-toggle="offcanvas" data-bs-target="#ModalArticulos"
                 onClick={() => escogerDia()} >
                 <svg className="bi" aria-hidden="true"><use xlinkHref={`#bi-calendar-${getData.dia}`}></use> </svg>
             </button>

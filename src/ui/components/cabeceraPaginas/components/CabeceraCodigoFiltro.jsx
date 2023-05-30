@@ -18,9 +18,9 @@ export const CabeceraCodigoFiltro = ({titulo = '', symbolSVG, enlace}) => {
                 <div className="container gb-container ">
                     <NavegacionHeader symbolSVG={symbolSVG} titulo={titulo} idModalBuscador={'ModalFiltro'} idOffCanvas={propFijas.idOffCanvas} enlace={enlace} />
                 </div>
+                <MenuLateral idOffCanvas={propFijas.idOffCanvas} />
+                <ModalCodigo idModalBuscador={'ModalFiltro'}/>
             </header>
-            <MenuLateral idOffCanvas={propFijas.idOffCanvas} />
-            <ModalCodigo idModalBuscador={'ModalFiltro'}/>
         </>
         
     )

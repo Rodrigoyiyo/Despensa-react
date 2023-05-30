@@ -33,9 +33,9 @@ export const CabeceraConFiltro = ({titulo = '', symbolSVG, enlace}) => {
                         <ResumenOrdenFiltro getData={""} />
                     </div>
                 </div>
+                <MenuLateral idOffCanvas={propFijas.idOffCanvas} />
+                <AdministrarFiltro />
             </header>
-            <MenuLateral idOffCanvas={propFijas.idOffCanvas} />
-            <AdministrarFiltro />
         </>
         
     )

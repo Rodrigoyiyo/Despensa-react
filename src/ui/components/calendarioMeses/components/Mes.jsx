@@ -5,8 +5,8 @@ export const Mes = ({getData, getAnio, diaSeleccionado, setData}) => {
 
     return (
         <>
-            <div class="card mx-2 my-4 rounded-4">
-                <div class="card-body">
+            <div className="card mx-2 my-4 rounded-4">
+                <div className="card-body">
                     <div className="text-center">
                         <p className="fs-5 fw-semibold text-body-tertiary py-2">{getData.mes} de {getAnio}</p>
                     </div>
