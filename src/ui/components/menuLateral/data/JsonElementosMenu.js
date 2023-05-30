@@ -5,17 +5,17 @@ export const JsonElementosMenu = [
             {
                 "texto": "Instancia",
                 "symbolSVG": "bi-check-square",
-                "enlace": "/articulo-instancia"
+                "enlace": "/articulo_instancia"
             },
             {
                 "texto": "Plantilla",
                 "symbolSVG": "bi-check-square",
-                "enlace" :"/articulo-plantilla"
+                "enlace" :"/articulo_plantilla"
             },
             {
                 "texto": "Sub plantilla",
                 "symbolSVG": "bi-check-square",
-                "enlace": "/articulo-instancia"
+                "enlace": "/articulo_instancia"
             }
         ]
     },{

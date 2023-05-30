@@ -20,8 +20,8 @@ export const AppRouter = () => {
 
                 
                 <Route path="stock" element={<StockPage />} />
-                <Route path="articulo-plantilla" element={<PlantillaArticuloPage />} />
-                <Route path="articulo-instancia" element={<InstanciaArticuloPage />} />
+                <Route path="articulo_plantilla" element={<PlantillaArticuloPage />} />
+                <Route path="articulo_instancia" element={<InstanciaArticuloPage />} />
 
                 <Route path="/*" element={<Navigate to="/" />} />
             </Routes>
