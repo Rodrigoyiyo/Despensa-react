@@ -2,12 +2,16 @@ import React from 'react';
 import {Simbolos} from '../Simbolos';
 import { CalendarioMeses, CabeceraSinFiltro, Footer } from '../ui';
 import { SimbolosCalendario } from '../SimbolosCalendario';
+import {limpiarStyleBody} from '../ui/helpers/limpiesaBootstrap';
 
 const dataHeader = {
     titulo: "Despachos"
 }
 
 export const DespachosPage = () => {
+
+    limpiarStyleBody();
+    
     return (
         <>
             <Simbolos />

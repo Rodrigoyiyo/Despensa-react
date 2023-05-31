@@ -1,5 +1,6 @@
 import { GrupoMenu } from "./GrupoMenu"
 import { JsonElementosMenu } from '../data/JsonElementosMenu';
+import { EnlaceCerrarSession } from "./EnlaceCerrarSession";
 
 export const MenuLateral = ({ idOffCanvas }) => {
     return (
@@ -19,6 +20,9 @@ export const MenuLateral = ({ idOffCanvas }) => {
                             )
                         })
                     }
+                    <li className="list-group-item d-flex justify-content-center">
+                        <EnlaceCerrarSession />
+                    </li>
                 </ul>
             </div>
         </div>

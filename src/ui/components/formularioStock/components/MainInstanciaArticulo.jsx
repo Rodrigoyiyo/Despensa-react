@@ -12,6 +12,10 @@ export const MainInstanciaArticulo = ({ formato = 'editar', setFormato }) => {
         setFormato('editar');
     }
 
+    const onGuardar = () => {
+        setFormato('lectura');
+    }
+
     return (
         <>
             <main className="container gb-container py-2 px-0" >
@@ -34,8 +38,8 @@ export const MainInstanciaArticulo = ({ formato = 'editar', setFormato }) => {
                             (formato === 'editar') ? (
                                 <div className="card-footer bg-transparent border border-0">
                                     <div className="d-flex justify-content-around">
-                                        <button type="submit" className="btn btn-outline-primario">Cancelar</button>
-                                        <button type="submit" className="btn btn-primario">Aceptar</button>
+                                        <button type="submit" className="btn btn-outline-primario" onClick={() => onGuardar()}>Cancelar</button>
+                                        <button type="submit" className="btn btn-primario" onClick={() => onGuardar()}>Aceptar</button>
                                     </div>
                                 </div>
                             ) : ''

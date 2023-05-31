@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Simbolos } from "../Simbolos"
 import { CabeceraCodigoFiltro, MainInstanciaArticulo } from "../ui"
+import {limpiarStyleBody} from '../ui/helpers/limpiesaBootstrap';
 
 const dataHeader = {
     titulo: "Instancia artículo",
@@ -9,6 +10,9 @@ const dataHeader = {
 }
 
 export const InstanciaArticuloPage = () => {
+
+    limpiarStyleBody();
+    
 
     const [tipoEdicion, setTipoEdicion] = useState('lectura');
 

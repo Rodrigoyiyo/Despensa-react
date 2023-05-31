@@ -12,7 +12,7 @@ export const ModalCodigo = ({ idModalBuscador, setData }) => {
     return (
         <div className="modal" id={idModalBuscador} tabIndex="-1" aria-hidden="true" >
             <div className="modal-dialog modal-dialog-centered">
-                <div className="modal-content">
+                <div className="modal-content text-body-tertiary">
                     <div className="modal-header">
                         <h5 className="modal-title">Ingresar código</h5>
                         {

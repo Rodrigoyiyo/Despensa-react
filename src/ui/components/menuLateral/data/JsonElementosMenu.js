@@ -10,7 +10,7 @@ export const JsonElementosMenu = [
             {
                 "texto": "Plantilla",
                 "symbolSVG": "bi-check-square",
-                "enlace" :"/articulo-plantilla"
+                "enlace": "/articulo-plantilla"
             },
             {
                 "texto": "Sub plantilla",
@@ -18,7 +18,7 @@ export const JsonElementosMenu = [
                 "enlace": "/articulo-instancia"
             }
         ]
-    },{
+    }, {
         "titulo": "Categorías",
         "enlaces": [
             {
@@ -30,7 +30,7 @@ export const JsonElementosMenu = [
                 "symbolSVG": "bi-check-square"
             }
         ]
-    },{
+    }, {
         "titulo": "Bodegas",
         "enlaces": [
             {
@@ -42,7 +42,7 @@ export const JsonElementosMenu = [
                 "symbolSVG": "bi-check-square"
             }
         ]
-    },{
+    }, {
         "titulo": "Usuarios",
         "enlaces": [
             {

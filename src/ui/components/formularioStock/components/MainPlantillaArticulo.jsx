@@ -39,7 +39,7 @@ export const MainPlantillaArticulo = ({formato, setFormato}) => {
                             (formato === 'crear')? (
                                 <div className="card-footer bg-transparent border border-0">
                                     <div className="d-flex justify-content-around">
-                                        <button type="submit" className="btn btn-outline-primario">Cancelar</button>
+                                        <button type="submit" className="btn btn-outline-primario" onClick={() => onGuardar()}>Cancelar</button>
                                         <button type="submit" className="btn btn-primario" onClick={() => onGuardar()}>Aceptar</button>
                                     </div>
                                 </div>

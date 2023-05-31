@@ -1,6 +1,7 @@
 import { Simbolos } from "../Simbolos";
 import { UseUsuarioProvider } from "../context/UseUsuarioProvider";
 import { CabeceraConFiltro, MainStock } from "../ui";
+import {limpiarStyleBody} from '../ui/helpers/limpiesaBootstrap';
 
 const dataHeader = {
     titulo: "Stock",
@@ -9,6 +10,9 @@ const dataHeader = {
 }
 
 export const StockPage = () => {
+
+    limpiarStyleBody();
+    
     return (
         <UseUsuarioProvider>
             <Simbolos />
