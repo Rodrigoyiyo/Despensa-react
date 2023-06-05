@@ -8,11 +8,12 @@ import './assets/styles.css';
 import './assets/stylesCalendario.css';
 import './assets/correcionesBootstrap.css';
 
+const subDominio = (location.pathname === '/Despensa-react/' ) ? '/Despensa-react/': '';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     
     <React.StrictMode>
-        <BrowserRouter>
+        <BrowserRouter basename={subDominio}>
             <AppDespensa />
         </BrowserRouter>
     </React.StrictMode>

@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 export const Footer = () => {
 
     return (
-        <footer className="p-3 bg-white border-top border-2 sticky-bottom fixed-bottom mt-auto" >
+        <footer className="p-2 p-sm-3 bg-white border-top border-2 sticky-bottom fixed-bottom mt-auto" >
             <div className="container gb-container">
                 <div className="row">
                     <div className="col-3">
