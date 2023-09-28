@@ -25,7 +25,7 @@ export const MainInstanciaArticulo = ({ formato = 'editar', setFormato }) => {
                         {
                             (formato === 'lectura') ? (
                                 <div className="card-header bg-transparent border border-0 text-end">
-                                    <a className="text-primario" href="#" onClick={() => esEditar()}>Editar</a>
+                                    <button type="button" className="btn btn-link text-primario" onClick={() => esEditar()} >Editar</button>
                                 </div>
                             ) : ''
                         }

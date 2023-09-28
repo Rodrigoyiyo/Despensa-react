@@ -9,8 +9,8 @@ import './assets/stylesCalendario.css';
 import './assets/correcionesBootstrap.css';
 
 
-const subDominio = (location.pathname === '/Despensa-react/' ) ? location.pathname: '';
-console.log('location.pathname',location.pathname);
+//const subDominio = (location.pathname === '/Despensa-react/' ) ? location.pathname: '';
+//console.log('location.pathname',location.pathname);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     

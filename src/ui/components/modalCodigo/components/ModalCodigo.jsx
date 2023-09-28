@@ -7,7 +7,7 @@ import { ElementoDeCarga } from "../../ElementoDeCarga";
 export const ModalCodigo = ({ idModalBuscador, setData }) => {
 
     const [pasoBusqueda, setPasoBusqueda] = useState('paso1');
-    const [buscadorState, setBuscador] = useState({codigo:'',tipo:''});
+    const [buscadorState, setBuscador] = useState({ codigo: '', tipo: '' });
 
     return (
         <div className="modal" id={idModalBuscador} tabIndex="-1" aria-hidden="true" >
@@ -29,12 +29,12 @@ export const ModalCodigo = ({ idModalBuscador, setData }) => {
                             ) : (
                                 (pasoBusqueda === 'paso2') ? (
                                     <FormularioCodigo getData={buscadorState} setData={setBuscador} />
-                                ) : ((pasoBusqueda === 'paso3')? <ElementoDeCarga /> : '' ))
+                                ) : ((pasoBusqueda === 'paso3') ? <ElementoDeCarga /> : ''))
                         }
 
                     </div>
                     {
-                        (pasoBusqueda === 'paso2') ? (<FooterCodigo setPasoBusqueda={setPasoBusqueda}/>) : ''
+                        (pasoBusqueda === 'paso2') ? (<FooterCodigo setPasoBusqueda={setPasoBusqueda} />) : ''
                     }
                 </div>
             </div>

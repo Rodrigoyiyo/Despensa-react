@@ -23,7 +23,7 @@ export const FormularioArticuloGeneral = ({getData, formato, idModal}) => {
                     <div className="row mb-3">
                         <label className="col-sm-3 col-form-label text-body-tertiary">Tipo</label>
                         <div className="col-sm-9 d-flex align-items-center  mb-3">
-                            <CampoSimboloArticulo />
+                            <CampoSimboloArticulo formato={formato} />
                             <CampoCategoriaArticulo getData={stateArticulo.tipo} formato={formato} setData={editarTipoCategoria} idModal={idModal} />
                         </div>
                     </div>

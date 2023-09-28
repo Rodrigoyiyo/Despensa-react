@@ -27,7 +27,7 @@ export const MainPlantillaArticulo = ({formato, setFormato}) => {
                         {
                             (formato === 'lectura')? (
                                 <div className="card-header bg-transparent border border-0 text-end">
-                                    <a className="text-primario" href="#" onClick={() => onEditar() }>Editar</a>
+                                    <button type="button" className="btn btn-link text-primario" onClick={() => onEditar()} >Editar</button>
                                 </div>
                             ): ''
                         }

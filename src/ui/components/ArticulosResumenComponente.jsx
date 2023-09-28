@@ -11,7 +11,7 @@ export const ArticuloResumenComponente = ({
 }) => {
     return (
         <li className="list-group-item bg-white align-items-center py-3 py-sm-4 px-sm-3 px-2">
-            <svg className="float-start bi fs-4 me-2 img-bi mb-auto text-secundario bg-terciario" aria-hidden="true" ><use xlinkHref={`#${idSymbolSVG}`}></use></svg>
+            <svg className="float-start rounded  bi fs-2 me-2 img-bi mb-auto text-secundario bg-terciario" aria-hidden="true" ><use xlinkHref={`#${idSymbolSVG}`}></use></svg>
             <div className="row mx-0">
                 <div className="col col-12 col-sm-8 px-0">
                     <a className="stretched-link text-decoration-none fs-5 mb-0 text-primario " data-bs-toggle="offcanvas" href="#ModalArticulos">
